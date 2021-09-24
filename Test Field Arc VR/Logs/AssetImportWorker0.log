@@ -1,0 +1,279 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.0b11 (0bffbba03cb9) revision 786363'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1237; Version 2009; 64bit' Language: 'en' Physical Memory: 16334 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.0b11\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/wesle/Desktop/Game Dev Tools/Projects/Test Field Arc VR
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49219
+Successfully changed project path to: C:/Users/wesle/Desktop/Game Dev Tools/Projects/Test Field Arc VR
+C:/Users/wesle/Desktop/Game Dev Tools/Projects/Test Field Arc VR
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 99.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.0b11 (0bffbba03cb9)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.0b11/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/wesle/Desktop/Game Dev Tools/Projects/Test Field Arc VR/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 5700 XT (ID=0x731f)
+    Vendor:   ATI
+    VRAM:     8152 MB
+    Driver:   27.20.14501.18003
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.0b11/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.0b11/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.0b11/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56652
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.0b11/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.0b11/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013498 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 104.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.458 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1490ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (698ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (239ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (332ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (104ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (153ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006436 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\wesle\Desktop\Game Dev Tools\Projects\Test Field Arc VR\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\wesle\Desktop\Game Dev Tools\Projects\Test Field Arc VR\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.572 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1627ms)
+		BeginReloadAssembly (225ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1274ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (449ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (503ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (339ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3029 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (55.5 KB). Loaded Objects now: 3508.
+Memory consumption went from 197.3 MB to 197.2 MB.
+Total: 4.943800 ms (FindLiveObjects: 0.424100 ms CreateObjectMapping: 0.144900 ms MarkObjects: 4.252800 ms  DeleteObjects: 0.119500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 91916.012113 seconds.
+  path: Assets/Scripts/BasicZombieController.cs
+  artifactKey: Guid(b7cd5af4f69f6b945b7bcd907a79a5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BasicZombieController.cs using Guid(b7cd5af4f69f6b945b7bcd907a79a5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b90d00810d5e81ac64eecbb7a5a28c8') in 0.048155 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006339 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\wesle\Desktop\Game Dev Tools\Projects\Test Field Arc VR\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\wesle\Desktop\Game Dev Tools\Projects\Test Field Arc VR\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.421 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1476ms)
+		BeginReloadAssembly (169ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1171ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (452ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (402ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (272ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3022 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (24.6 KB). Loaded Objects now: 3510.
+Memory consumption went from 197.0 MB to 197.0 MB.
+Total: 3.790200 ms (FindLiveObjects: 0.362500 ms CreateObjectMapping: 0.094400 ms MarkObjects: 3.311700 ms  DeleteObjects: 0.020200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 608.570581 seconds.
+  path: Assets/Scripts/MouseLook.cs
+  artifactKey: Guid(98b7b6c16dc6d224ca7f5758bc6ee682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MouseLook.cs using Guid(98b7b6c16dc6d224ca7f5758bc6ee682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f2c00241a2c8acf274db44abccf7f7') in 0.019529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.773519 seconds.
+  path: Assets/Scripts/Interaction.cs
+  artifactKey: Guid(543d81c572714dd4a81b0ba6cd43ab2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Interaction.cs using Guid(543d81c572714dd4a81b0ba6cd43ab2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '904da2bcc303f688e64beadc4b0cbcff') in 0.010583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.642736 seconds.
+  path: Assets/Scripts/Interactions/I_FirstButton.cs
+  artifactKey: Guid(13fbd8352192f8f4b97bc29dbd36feef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Interactions/I_FirstButton.cs using Guid(13fbd8352192f8f4b97bc29dbd36feef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da4ca6482a1e311e95bc3f3594e6eaf') in 0.010951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 94.375738 seconds.
+  path: Assets/Scripts/Interactions/I_APICallRoomD.cs
+  artifactKey: Guid(5d713bd5745a7424f918aeb6357caf30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Interactions/I_APICallRoomD.cs using Guid(5d713bd5745a7424f918aeb6357caf30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276e178e82186dbbb27626fa12d5ad94') in 0.013255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 194.542402 seconds.
+  path: Assets/Materials/dfk_crystal_white.mat
+  artifactKey: Guid(5c65b74b044629d4d83f8594de6e72d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/dfk_crystal_white.mat using Guid(5c65b74b044629d4d83f8594de6e72d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fad1fffc1a34f1d518cba0fb402b767') in 0.145837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.922673 seconds.
+  path: Assets/RunemarkStudio/DarkFantasyKit/Prefabs/Roof
+  artifactKey: Guid(e7e976c98db3e0c44afa46be37e22342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RunemarkStudio/DarkFantasyKit/Prefabs/Roof using Guid(e7e976c98db3e0c44afa46be37e22342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2a602066c3c7de7e25086e49db859ae') in 0.008638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.450100 seconds.
+  path: Assets/RunemarkStudio/DarkFantasyKit/Prefabs/Decoration/Sculptures/dfk_gemstone_01.prefab
+  artifactKey: Guid(eaf608601b19b62468cf70a5f506df3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RunemarkStudio/DarkFantasyKit/Prefabs/Decoration/Sculptures/dfk_gemstone_01.prefab using Guid(eaf608601b19b62468cf70a5f506df3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f734dcdf79f8a4a0f17fba4e222f6458') in 0.038218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/RunemarkStudio/DarkFantasyKit/Prefabs/Decoration/Sculptures/dfk_statue_scorpion_01.prefab
+  artifactKey: Guid(3c8a113e6c9046348a5fdcc9cb8dffb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RunemarkStudio/DarkFantasyKit/Prefabs/Decoration/Sculptures/dfk_statue_scorpion_01.prefab using Guid(3c8a113e6c9046348a5fdcc9cb8dffb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abdbec1bad6bedad632b5f93ee366438') in 0.096534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 456.837310 seconds.
+  path: Assets/Zombie
+  artifactKey: Guid(41c5779004702b04d924b224180beab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombie using Guid(41c5779004702b04d924b224180beab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91a41126f12bf1166212febb0fe904b0') in 0.011073 seconds 
