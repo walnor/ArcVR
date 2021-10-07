@@ -112,8 +112,10 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
+-define:ENABLE_INPUT_SYSTEM
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:HDRP_1_OR_NEWER
+-define:ENABLE_XR_MANAGEMENT
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"C:/Program Files/Unity/Hub/Editor/2021.2.0b11/Editor/Data/Managed/UnityEditor.Graphs.dll"
