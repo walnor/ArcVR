@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/LevelBase.unity
+- path: Assets/Scenes/XR Test Feild.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
