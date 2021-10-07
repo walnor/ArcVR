@@ -6,6 +6,9 @@ using UnityEngine.XR;
 public class HandPresence : MonoBehaviour
 {
     private InputDevice targetDevice;
+    public GameObject ControllerPrefab;
+
+    private GameObject SpawnedController;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +26,8 @@ public class HandPresence : MonoBehaviour
         {
             targetDevice = devices[0];
         }
+
+        SpawnedController = Instantiate(ControllerPrefab,transform);
     }
 
     // Update is called once per frame
