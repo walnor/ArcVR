@@ -2,16 +2,8 @@
   "BurstVersion": "bace72e1-c284-41d0-baf4-9fb4f0772068",
   "Assemblies": [
     {
-      "FullName": "UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2021-09-02T04:03:56Z"
-    },
-    {
-      "FullName": "Unity.RenderPipelines.HighDefinition.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "1601-01-01T00:00:00Z"
-    },
-    {
       "FullName": "Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "1601-01-01T00:00:00Z"
+      "LastWriteTime": "2021-10-07T18:01:57.3090901Z"
     },
     {
       "FullName": "netstandard, Version=2.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51",
@@ -22,12 +14,20 @@
       "LastWriteTime": "2021-09-02T04:01:46Z"
     },
     {
+      "FullName": "UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2021-09-02T04:03:56Z"
+    },
+    {
+      "FullName": "Unity.RenderPipelines.HighDefinition.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2021-10-07T18:02:06.1636713Z"
+    },
+    {
       "FullName": "mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
       "LastWriteTime": "2021-09-02T04:01:46Z"
     },
     {
       "FullName": "Unity.Mathematics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "1601-01-01T00:00:00Z"
+      "LastWriteTime": "2021-10-07T18:01:59.0075681Z"
     }
   ],
   "Functions": [
@@ -39,9 +39,7 @@
       "AssemblyDependencyIndices": [
         0,
         1,
-        2,
-        3,
-        4
+        2
       ]
     },
     {
@@ -50,9 +48,9 @@
       "ModuleHash": "cc476dcfebb7061ad8d907f2bdc8423a",
       "LinkName": "801E9A000BB37B05",
       "AssemblyDependencyIndices": [
-        2,
-        3,
-        4
+        0,
+        1,
+        2
       ]
     },
     {
@@ -61,12 +59,12 @@
       "ModuleHash": "6f9af36ac7446a30acce4f754415b4e0",
       "LinkName": "B64D58D5134C3B25",
       "AssemblyDependencyIndices": [
-        0,
-        1,
-        5,
         3,
         4,
-        6
+        5,
+        6,
+        1,
+        2
       ]
     }
   ]

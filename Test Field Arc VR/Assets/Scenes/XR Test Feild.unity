@@ -559,7 +559,7 @@ GameObject:
   - component: {fileID: 243058764}
   - component: {fileID: 243058763}
   - component: {fileID: 243058762}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: LeftHand Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1015,7 +1015,7 @@ GameObject:
   - component: {fileID: 252262403}
   - component: {fileID: 252262402}
   - component: {fileID: 252262404}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RightHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1079,7 +1079,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.2
+  m_Radius: 0.1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &252262403
 MonoBehaviour:
@@ -1124,7 +1124,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_SelectActionTrigger: 0
-  m_HideControllerOnSelect: 0
+  m_HideControllerOnSelect: 1
   m_PlayAudioClipOnSelectEntered: 0
   m_AudioClipForOnSelectEntered: {fileID: 0}
   m_PlayAudioClipOnSelectExited: 0
@@ -1168,6 +1168,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ControllerPrefab: {fileID: 4024951872544157354, guid: cfa8dc06d611ba340b06bbefba58ee46, type: 3}
+  interactor: {fileID: 0}
+  PrimaryButtonEvents:
+    m_PersistentCalls:
+      m_Calls: []
+  SencondaryButtonEvents:
+    m_PersistentCalls:
+      m_Calls: []
+  TriggerEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  IsRight: 1
+  HandCollider: {fileID: 252262402}
 --- !u!1 &333136373
 GameObject:
   m_ObjectHideFlags: 0
@@ -1610,7 +1622,7 @@ GameObject:
   - component: {fileID: 806966101}
   - component: {fileID: 806966100}
   - component: {fileID: 806966103}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -2079,7 +2091,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 993445184}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.274, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2138,7 +2150,7 @@ GameObject:
   - component: {fileID: 1096861076}
   - component: {fileID: 1096861075}
   - component: {fileID: 1096861077}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: LeftHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2202,7 +2214,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.2
+  m_Radius: 0.1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1096861076
 MonoBehaviour:
@@ -2247,7 +2259,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_SelectActionTrigger: 0
-  m_HideControllerOnSelect: 0
+  m_HideControllerOnSelect: 1
   m_PlayAudioClipOnSelectEntered: 0
   m_AudioClipForOnSelectEntered: {fileID: 0}
   m_PlayAudioClipOnSelectExited: 0
@@ -2291,6 +2303,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ControllerPrefab: {fileID: 4245457492171364763, guid: c836783e3928a624e9ff9c70d4f21606, type: 3}
+  interactor: {fileID: 0}
+  PrimaryButtonEvents:
+    m_PersistentCalls:
+      m_Calls: []
+  SencondaryButtonEvents:
+    m_PersistentCalls:
+      m_Calls: []
+  TriggerEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  IsRight: 0
+  HandCollider: {fileID: 1096861075}
 --- !u!1 &1111436365
 GameObject:
   m_ObjectHideFlags: 0
@@ -2722,7 +2746,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1533502635}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Camera Offset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2763,7 +2787,7 @@ GameObject:
   - component: {fileID: 1605698710}
   - component: {fileID: 1605698709}
   - component: {fileID: 1605698714}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2980,7 +3004,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1631977470}
   - component: {fileID: 1631977469}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: XR Rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3035,7 +3059,7 @@ GameObject:
   - component: {fileID: 1852478910}
   - component: {fileID: 1852478909}
   - component: {fileID: 1852478908}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RightHand Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3793,7 +3817,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2144400446}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.274, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3805,3 +3829,64 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &8264560184101235086
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8873378504061607410, guid: 56198c45c4621bf4c8f31b7e54345e99, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8873378504061607410, guid: 56198c45c4621bf4c8f31b7e54345e99, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.947
+      objectReference: {fileID: 0}
+    - target: {fileID: 8873378504061607410, guid: 56198c45c4621bf4c8f31b7e54345e99, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.158
+      objectReference: {fileID: 0}
+    - target: {fileID: 8873378504061607410, guid: 56198c45c4621bf4c8f31b7e54345e99, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.2273
+      objectReference: {fileID: 0}
+    - target: {fileID: 8873378504061607410, guid: 56198c45c4621bf4c8f31b7e54345e99, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8873378504061607410, guid: 56198c45c4621bf4c8f31b7e54345e99, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8873378504061607410, guid: 56198c45c4621bf4c8f31b7e54345e99, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8873378504061607410, guid: 56198c45c4621bf4c8f31b7e54345e99, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8873378504061607410, guid: 56198c45c4621bf4c8f31b7e54345e99, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8873378504061607410, guid: 56198c45c4621bf4c8f31b7e54345e99, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8873378504061607410, guid: 56198c45c4621bf4c8f31b7e54345e99, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8873378504061607414, guid: 56198c45c4621bf4c8f31b7e54345e99, type: 3}
+      propertyPath: m_InteractionManager
+      value: 
+      objectReference: {fileID: 353618470}
+    - target: {fileID: 8873378504061607417, guid: 56198c45c4621bf4c8f31b7e54345e99, type: 3}
+      propertyPath: m_Name
+      value: BasicGun
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 56198c45c4621bf4c8f31b7e54345e99, type: 3}

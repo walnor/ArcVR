@@ -233,3 +233,6 @@ Test Field Arc VR/Library/Bee/artifacts/rsp/9703144790800738880.rsp
 Test Field Arc VR/Library/Bee/artifacts/rsp/9870516708743257357.rsp
 Test Field Arc VR/Library/Bee/artifacts/rsp/99471145861977958.rsp
 Test Field Arc VR/Logs/*
+Test Field Arc VR/Library/*
+Test Field Arc VR/Logs/*
+*.log
